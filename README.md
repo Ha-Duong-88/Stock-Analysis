@@ -4,7 +4,7 @@
 
 ## Purpose
 
-The purpose of this project was to refactor Microsoft Excel VBA code to collect total daily volume and return for 12 green energy stock prices for the years 2017 and 2018 and determine whether or not these stocks are worth investing in. The starting point was to reuse code that set up a similar structure. The goal of the challenge was to reuse and refactor the original code to perform the analysis for 2017 and 2018 stocks and improve the overall efficiency of the code.
+The purpose of this project was to refactor Microsoft Excel VBA code to collect total daily volume and return for 12 green energy stock prices for the years 2017 and 2018 and determine if these stocks are worthwhile investing in. The starting point was to reuse code to set up a similar structure. The goal of the challenge was to reuse and refactor the original code to perform the analysis for 2017 and 2018 stocks and improve the overall efficiency of the code.
 
 ## Data
 
@@ -14,7 +14,7 @@ The challenge instructions were to add code to determine the total daily volume 
 
 ## Results
 
-Before refactoring the code, I determined the code that I could reuse and copied the code to create the table headers,the input box for the year that I want to run the analysis, the ticker array, and to format the header rows and conditional color formatting. I also made sure that I activated the correct worksheet to output the data.
+Before refactoring the code, I reviewed the code that I could reuse and copied the code to create the table headers,the input box for the year that I want to run the analysis, the ticker array, and to format the header rows and conditional color formatting. I also made sure that I activated the correct worksheet to output the data.
 
 The instruction and code as written in the file are below.
 
@@ -23,7 +23,15 @@ The instruction and code as written in the file are below.
 
 ## Advantages and Disadvantages of Refactoring Code
 
+Refactoring code has several advantages:
+    ### 1) It can help to reduce complexity and duplication in the code, especially legacy code
+    ### 2) It improves the organization and efficiency of the code to achieve better performance and increase its overall readability and maintability over time.
+    ### 3) It makes the code more extensible
+    ### 4) It can help other developers understand the code better. It could be beneficial in situations where there are multiple developers collaborating on a      project but on a different aspects of the code; refactoring helps developers to understand the end to end logic and flow of the code if the code is well organized and clean.
 
+There are some disadvantages with refactoring code. They can be:
+    1) It may introduce defects but this can be mitigated with proper peer review and testing
+    2) It can be time consuming, especially for a large or legacy code base
 
 ## Advantages and Disadvantages of the original and refactored VBA script
 
