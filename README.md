@@ -1,8 +1,8 @@
 # Stock-Analysis
 
-# **Overview of Project
+# Overview of Project
 
-**## Purpose
+## Purpose
 
 The purpose of this project was to refactor Microsoft Excel VBA code to collect total daily volume and return for 12 green energy stock prices for the years 2017 and 2018 and determine whether or not these stocks are worth investing in. The starting point was to reuse code that set up a similar structure. The goal of the challenge was to reuse and refactor the original code to perform the analysis for 2017 and 2018 stocks and improve the overall efficiency of the code.
 
