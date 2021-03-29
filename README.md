@@ -73,8 +73,6 @@ Next i
     Next i
     
 
-  
-
 # Summary
 
 ## Advantages and Disadvantages of Refactoring Code
