@@ -70,7 +70,7 @@ Next i
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
-    Next i
+      Next i
             
 
 # Summary
