@@ -33,7 +33,8 @@ There are some disadvantages with refactoring code. Refactoring can introduce de
 As a result of refactoring the original VBA script, the run time performance improved from over 1 second to less than almost one fourth the time.
 
 Attached below are the screenshots that indicate the run time for our new analysis.
+<img width="1440" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/80140082/112773639-8d8f5700-8feb-11eb-92c4-c565e7ababf8.png">
 
-![](resources/VBA_Challenge_2017.png)
-![](resources/VBA_Challenge_2018.png)
+<img width="1440" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/80140082/112773592-6cc70180-8feb-11eb-98ec-305558a02c67.png">
+
 
