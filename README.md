@@ -39,5 +39,6 @@ Attached below are the screenshots that indicate the run time for our new analys
 
 ![image](https://user-images.githubusercontent.com/80140082/112773684-ba436e80-8feb-11eb-96e6-743bcfb253d8.png)
 
+![image](https://user-images.githubusercontent.com/80140082/112773715-e5c65900-8feb-11eb-870c-5e26c3116a37.png)
 
 
