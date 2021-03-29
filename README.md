@@ -18,6 +18,9 @@ Before refactoring the code, I reviewed the code that I could reuse and copied t
 
 The instruction and code as written in the file are below.
 
+![alternativetext](resources/VBA_Challenge_2017.png)
+![alternativetext](resources/VBA_Challenge_2018.png)
+
 
 # Summary
 
@@ -29,6 +32,8 @@ There are some disadvantages with refactoring code. Refactoring can introduce de
 
 ## Advantages and Disadvantages of the original and refactored VBA script
 
-As a result of refactoring the original VBA script, the run time performance improved by almost 100% from 6000 seconds to 0.0546 seconds!
+As a result of refactoring the original VBA script, the run time performance improved from over 1 second to less than almost one fourth the time.
 
 Attached below are the screenshots that indicate the run time for our new analysis.
+
+![alternativetext](resources/image.png)
