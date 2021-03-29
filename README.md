@@ -45,8 +45,7 @@ The instruction and code as written in the file are below.
         'If  Then
                 If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
             
-                        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
-            
+                        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value 
         End If
         
         '3c) check if the current row is the last row with the selected ticker
@@ -58,8 +57,9 @@ The instruction and code as written in the file are below.
                         
                         '3d Increase the tickerIndex
                         
-                        tickerIndex = tickerIndex + 1
+                        tickerIndex = tickerIndex + 
                 End If
+            
 Next i
     
     '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
@@ -70,7 +70,10 @@ Next i
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
-      Next i  
+    Next i
+    
+
+  
 
 # Summary
 
