@@ -18,6 +18,59 @@ Before refactoring the code, I reviewed the code that I could reuse and copied t
 
 The instruction and code as written in the file are below.
 
+
+    '1a) Create a ticker Index
+    tickerIndex = 0
+
+    '1b) Create three output arrays
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
+    
+    ''2a) Create a for loop to initialize the tickerVolumes to zero.
+     For i = 0 To 11
+            tickerVolumes(i) = 0
+            
+    Next i
+        
+    ''2b) Loop over all the rows in the spreadsheet.
+        For i = 2 To RowCount
+            
+    
+        '3a) Increase volume for current ticker
+                tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+  
+        
+        '3b) Check if the current row is the first row with the selected tickerIndex.
+        'If  Then
+                If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+            
+                        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value 
+        End If
+        
+        '3c) check if the current row is the last row with the selected ticker
+         'If the next row’s ticker doesn’t match, increase the tickerIndex.
+        'If  Then
+                If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1) <> tickers(tickerIndex) Then
+                    
+                        tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+                        
+                        '3d Increase the tickerIndex
+                        
+                        tickerIndex = tickerIndex + 
+                End If
+                
+Next i
+    
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+      For i = 0 To 11
+    
+        Worksheets("All Stocks Analysis").Activate
+        Cells(4 + i, 1).Value = tickers(i)
+        Cells(4 + i, 2).Value = tickerVolumes(i)
+        Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
+    
+      Next i
             
 
 # Summary
@@ -32,7 +85,8 @@ There are some disadvantages with refactoring code. Refactoring can introduce de
 
 As a result of refactoring the original VBA script, the run time performance improved from over 1 second to less than almost one fourth the time.
 
-Attached below are the screenshots that indicate the run time for our new analysis.
+Attached below are the screenshots that indicate the run time for our new analysis and the summary table of the stocks and their return.
+
 <img width="1440" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/80140082/112773639-8d8f5700-8feb-11eb-92c4-c565e7ababf8.png">
 
 <img width="1440" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/80140082/112773592-6cc70180-8feb-11eb-98ec-305558a02c67.png">
