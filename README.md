@@ -18,8 +18,6 @@ Before refactoring the code, I reviewed the code that I could reuse and copied t
 
 The instruction and code as written in the file are below.
 
-![alternativetext](resources/VBA_Challenge_2017.png)
-![alternativetext](resources/VBA_Challenge_2018.png)
 
 
 # Summary
@@ -36,4 +34,6 @@ As a result of refactoring the original VBA script, the run time performance imp
 
 Attached below are the screenshots that indicate the run time for our new analysis.
 
-![alternativetext](resources/image.png)
+![](resources/VBA_Challenge_2017.png)
+![](resources/VBA_Challenge_2018.png)
+
