@@ -23,20 +23,12 @@ The instruction and code as written in the file are below.
 
 ## Advantages and Disadvantages of Refactoring Code
 
-Refactoring code has several advantages:
-    ### 1) It can help to reduce complexity and duplication in the code, especially legacy code
-    ### 2) It improves the organization and efficiency of the code to achieve better performance and increase its overall readability and maintability over time.
-    ### 3) It makes the code more extensible
-    ### 4) It can help other developers understand the code better. It could be beneficial in situations where there are multiple developers collaborating on a      project but on a different aspects of the code; refactoring helps developers to understand the end to end logic and flow of the code if the code is well organized and clean.
+Refactoring code has several advantages. It can help to reduce complexity and duplication in the code, especially for legacy code. It also improves the organization and efficiency of the code to achieve better performance and increase its overall readability and maintability over time. Another key benefit is that it makes the code more extensible and flexible. Moreover, it can help other developers understand the code better. It can be beneficial in situations where there are multiple developers collaborating on a project but on a different aspects of the code; refactoring helps developers to understand the end to end logic and flow of the code if the code is well organized and clean.
 
-There are some disadvantages with refactoring code. They can be:
-    1) It may introduce defects but this can be mitigated with proper peer review and testing
-    2) It can be time consuming, especially for a large or legacy code base
+There are some disadvantages with refactoring code. Refactoring can introduce defects but this can be mitigated with proper peer review and testing. It can be time consuming, especially for a large or legacy code base. Another disadvantage is that refactoring does not address any underlying architectural issues. Lack of or insufficient test cases can also add risks to refactoring.
 
 ## Advantages and Disadvantages of the original and refactored VBA script
 
-Overview of Project: Explain the purpose of this analysis.
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+As a result of refactoring the original VBA script, the run time performance improved by almost 100% from 6000 seconds to 0.0546 seconds!
+
+Attached below are the screenshots that indicate the run time for our new analysis.
