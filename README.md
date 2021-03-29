@@ -59,7 +59,7 @@ The instruction and code as written in the file are below.
                         
                         tickerIndex = tickerIndex + 
                 End If
-            
+                
 Next i
     
     '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
@@ -71,7 +71,7 @@ Next i
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
     Next i
-    
+            
 
 # Summary
 
